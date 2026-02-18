@@ -40,21 +40,21 @@ export default function Formulario() {
           <div className="mensaje-exito">¡Mensaje enviado con éxito!</div>
         )}
         <form ref={form} onSubmit={sendEmail} className="formulario">
-          <label>Nombre</label>
+          <label htmlFor="user_name">Nombre</label>
           <input
             className="entrada"
             type="text"
             name="user_name"
             placeholder="Ingresa tu nombre"
           />
-          <label>Correo</label>
+          <label htmlFor="user_email">Correo</label>
           <input
             className="entrada"
             type="email"
             name="user_email"
             placeholder="Correo electrónico"
           />
-          <label>Mensaje</label>
+          <label htmlFor="message">Mensaje</label>
           <textarea
             className="textarea"
             name="message"

@@ -42,6 +42,7 @@ export default function Formulario() {
         <form ref={form} onSubmit={sendEmail} className="formulario">
           <label htmlFor="user_name">Nombre</label>
           <input
+            id="user_name"
             className="entrada"
             type="text"
             name="user_name"
@@ -49,6 +50,7 @@ export default function Formulario() {
           />
           <label htmlFor="user_email">Correo</label>
           <input
+            id="user_email"
             className="entrada"
             type="email"
             name="user_email"
@@ -56,6 +58,7 @@ export default function Formulario() {
           />
           <label htmlFor="message">Mensaje</label>
           <textarea
+            id="message"
             className="textarea"
             name="message"
             placeholder="Escribe tu mensaje aquí"

@@ -1,36 +1,59 @@
-*{
+@import '../css/Fonts.css';
+
+* {
     box-sizing: border-box;
     margin: 0px;
 }
 
 body {
-    padding-top: 8em; /* Ajusta el valor según la altura de tu encabezado */
+    padding-top: 8em;
+    /* Ajusta el valor según la altura de tu encabezado */
 }
 
 
-h1{font-size: 3.5em;}
-h2{font-size: 2.7em;}
-h3{font-size: 2em;}
-p{font-size: 1.25em;}
-span{font-size: 1em;}
-ul{list-style: none;}
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2.7em;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 1.25em;
+}
+
+span {
+    font-size: 1em;
+}
+
+ul {
+    list-style: none;
+}
 
 
-img{
+img {
     max-width: 100%;
     height: auto;
 }
+
 /*TABLET*/
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     body {
-        padding-top: 0; /* Ajusta el valor según la altura de tu encabezado */
+        padding-top: 0;
+        /* Ajusta el valor según la altura de tu encabezado */
     }
 }
 
 
 /*ESCRITORIO*/
-@media only screen and (min-width: 1024PX){
+@media only screen and (min-width: 1024PX) {
     body {
-        padding-top: 0; /* Ajusta el valor según la altura de tu encabezado */
+        padding-top: 0;
+        /* Ajusta el valor según la altura de tu encabezado */
     }
 }

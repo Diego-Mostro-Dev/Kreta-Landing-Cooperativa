@@ -1,6 +1,4 @@
-@import '../css/Fonts.css';
-
-.container-fotografia-detalle.INSTITUCIONALES{
+.container-fotografia-detalle.INSTITUCIONALES {
     background-color: rgba(241, 130, 105, 0.65);
     display: flex;
     justify-content: center;
@@ -9,7 +7,8 @@
     margin: 1em 0 1em 0;
     padding: 1em;
 }
-.container-fotografia-detalle.PUBLICITARIAS{
+
+.container-fotografia-detalle.PUBLICITARIAS {
     background-color: rgba(148, 132, 255, 0.65);
     display: flex;
     justify-content: center;
@@ -18,7 +17,8 @@
     margin: 0 0 1em 0;
     padding: 1em;
 }
-.container-fotografia-detalle.FOTO-PRODUCTO{
+
+.container-fotografia-detalle.FOTO-PRODUCTO {
     background-color: rgba(102, 50, 135, 0.65);
     display: flex;
     justify-content: center;
@@ -27,7 +27,8 @@
     margin: 0 0 1em 0;
     padding: 1em;
 }
-.container-fotografia-detalle.AÉREAS{
+
+.container-fotografia-detalle.AÉREAS {
     background-color: rgba(239, 84, 70, 0.65);
     display: flex;
     justify-content: center;
@@ -36,7 +37,8 @@
     margin: 0 0 1em 0;
     padding: 1em;
 }
-.container-fotografia-detalle.COBERTURAS{
+
+.container-fotografia-detalle.COBERTURAS {
     background-color: rgba(49, 162, 140, 0.65);
     display: flex;
     justify-content: center;
@@ -46,21 +48,21 @@
     padding: 1em;
 }
 
-.titulo-fotografia-detalle{
+.titulo-fotografia-detalle {
     font-size: 1.7rem;
     text-align: center;
-    margin: 1em 0 0 0 ;
+    margin: 1em 0 0 0;
     font-family: 'Mont-Black';
     color: #FFFFFF;
 }
 
-.fotografia-detalle{
+.fotografia-detalle {
     max-width: 100%;
     margin: 0 auto;
     margin-top: 1em;
 }
 
-.texto-fotografia-detalle{
+.texto-fotografia-detalle {
     text-align: center;
     margin: 1em;
     font-size: 0.9em;
@@ -69,25 +71,27 @@
 }
 
 /*TABLET*/
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-    .fotografia-detalle{
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .fotografia-detalle {
         max-width: 70%;
         margin: 0 auto;
         margin-top: 1.5em;
         padding-top: 1em;
     }
-    .titulo-fotografia-detalle{
+
+    .titulo-fotografia-detalle {
         font-size: 1.8rem;
         margin-top: 0.5em;
     }
-    .texto-fotografia-detalle{
+
+    .texto-fotografia-detalle {
         margin-bottom: 1em;
     }
 }
 
 /*ESCRITORIO*/
-@media only screen and (min-width: 1024PX){
-    .container-fotografia-detalle.INSTITUCIONALES{
+@media only screen and (min-width: 1024PX) {
+    .container-fotografia-detalle.INSTITUCIONALES {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -96,8 +100,8 @@
         padding: 1em;
         padding-left: 1.5em;
     }
-    
-    .container-fotografia-detalle.PUBLICITARIAS{
+
+    .container-fotografia-detalle.PUBLICITARIAS {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -105,7 +109,8 @@
         margin: 0 0 1em 0;
         padding: 1em;
     }
-    .container-fotografia-detalle.FOTO-PRODUCTO{
+
+    .container-fotografia-detalle.FOTO-PRODUCTO {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -114,14 +119,16 @@
         padding: 1em;
         padding-left: 1.5em;
     }
-    .container-fotografia-detalle.AÉREAS{
+
+    .container-fotografia-detalle.AÉREAS {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: row-reverse;
         margin: 0 0 1em 0;
     }
-    .container-fotografia-detalle.COBERTURAS{
+
+    .container-fotografia-detalle.COBERTURAS {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -131,19 +138,23 @@
         padding-left: 0.5em;
         padding-left: 1.5em;
     }
-    .fotografia-detalle{
+
+    .fotografia-detalle {
         max-width: 50%;
         margin: 0 auto;
     }
-    .titulo-fotografia-detalle{
+
+    .titulo-fotografia-detalle {
         font-size: 1.8rem;
     }
-    .texto-fotografia-detalle{
+
+    .texto-fotografia-detalle {
         padding: 1.5em;
         font-size: 1.25em;
     }
-    .foto.AÉREAS{
+
+    .foto.AÉREAS {
         padding-right: 4.5em;
         max-width: 110%;
     }
-}  
+}

@@ -1,8 +1,4 @@
-@import '../css/Fonts.css';
-
-
-
-.ubicacion-wraper{
+.ubicacion-wraper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +7,7 @@
     background-color: rgba(241, 130, 105, 0.65);
 }
 
-.texto-descripcion{
+.texto-descripcion {
     font-size: 1.25em;
     text-align: center;
     margin: 1em;
@@ -20,13 +16,13 @@
     margin-top: 1em;
 }
 
-.teras-link{
+.teras-link {
     font-family: 'Mont-Light';
     color: #FFFFFF;
     cursor: pointer;
 }
 
-.titulo-ubicacion{
+.titulo-ubicacion {
     font-size: 1.5em;
     text-align: center;
     margin: 0 1em 1em 1em;
@@ -35,31 +31,34 @@
 }
 
 
-.direccion{
+.direccion {
     font-size: 1.5em;
     text-align: center;
     font-family: 'Mont-SemiBold';
     margin-bottom: 1em;
 }
 
-.mapa{
+.mapa {
     width: 100%;
     height: 17em;
     margin: 0 auto;
 }
 
-.leaflet-bottom .leaflet-right{
+.leaflet-bottom .leaflet-right {
     display: none;
 }
-.leaflet-control-attribution .leaflet-control{
+
+.leaflet-control-attribution .leaflet-control {
     display: none;
 }
-.leaflet-attribution-flag{
+
+.leaflet-attribution-flag {
     display: none;
 }
+
 /*TABLET*/
-@media only screen and (min-width: 768px) and (max-width: 1023px){}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {}
 
 
 /*ESCRITORIO*/
-@media only screen and (min-width: 1024PX){}
+@media only screen and (min-width: 1024PX) {}

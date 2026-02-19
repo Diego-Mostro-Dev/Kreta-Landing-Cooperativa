@@ -1,6 +1,4 @@
-@import '../css/Fonts.css';
-
-.wraper-contacto{
+.wraper-contacto {
     max-width: 100%;
     height: auto;
     display: flex;
@@ -10,7 +8,7 @@
     background-color: rgba(49, 162, 140, 0.65);
 }
 
-.titulo-contacto{
+.titulo-contacto {
     text-align: center;
     font-size: 1.5em;
     margin: 1.5em;
@@ -18,7 +16,7 @@
     font-family: 'Mont-SemiBold';
 }
 
-.formulario{
+.formulario {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +26,7 @@
     height: auto;
 }
 
-label{
+label {
     font-size: 1.5em;
     color: #FFFFFF;
     margin-bottom: 0.5em;
@@ -43,7 +41,7 @@ label{
     font-family: 'Mont-SemiBold';
 }
 
-.entrada[name="user_name"]::placeholder{
+.entrada[name="user_name"]::placeholder {
     font-size: 100%;
     font-family: 'Mont-Light';
 }
@@ -58,14 +56,14 @@ label{
     font-family: 'Mont-Light';
 }
 
-textarea{
+textarea {
     font-size: 1.3em;
     width: 100%;
     height: 8em;
     font-family: 'Mont-SemiBold';
 }
 
-.mensaje-exito{
+.mensaje-exito {
     background-color: #31A28C;
     height: 1em;
     font-family: 'Mont-SemiBold';
@@ -76,18 +74,18 @@ textarea{
 }
 
 button {
-    max-width: fit-content; 
+    max-width: fit-content;
     max-height: fit-content;
     margin: 0 auto;
     margin-top: 1em;
-    background: none; 
-    border: none; 
-    padding: 0; 
-    cursor: pointer; 
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
 }
 
 .icono-enviar {
-    max-width: 10%; 
+    max-width: 10%;
     padding-bottom: 1em;
 }
 
@@ -95,19 +93,22 @@ button {
 
 
 /*TABLET*/
-@media only screen and (min-width: 768px) and (max-width: 1023px){
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
     .entrada {
         width: 35em;
         text-align: left;
     }
-    .titulo-contacto{
+
+    .titulo-contacto {
         font-size: 1.8em;
     }
-    .formulario{
-        align-items:center;
+
+    .formulario {
+        align-items: center;
         text-align: left;
     }
-    .mensaje-exito{
+
+    .mensaje-exito {
         background-color: #31A28C;
         height: 2em;
         font-family: 'Mont-SemiBold';
@@ -116,31 +117,37 @@ button {
         padding-bottom: 2em;
         margin-bottom: 1em;
     }
-    .icono-enviar{
+
+    .icono-enviar {
         max-width: 10%;
         padding-bottom: 1em;
     }
+
     .entrada {
         width: 90%;
     }
-    textarea{
+
+    textarea {
         width: 90%;
     }
 }
 
 
 /*ESCRITORIO*/
-@media only screen and (min-width: 1024PX){
+@media only screen and (min-width: 1024PX) {
     .entrada {
         width: 35em;
     }
-    .titulo-contacto{
+
+    .titulo-contacto {
         font-size: 1.8em;
     }
-    .formulario{
-        align-items:center;
+
+    .formulario {
+        align-items: center;
     }
-    .mensaje-exito{
+
+    .mensaje-exito {
         background-color: #31A28C;
         height: 2em;
         font-family: 'Mont-SemiBold';
@@ -149,20 +156,24 @@ button {
         padding-bottom: 2em;
         margin-bottom: 1em;
     }
-    .icono-enviar{
+
+    .icono-enviar {
         max-width: 12%;
         margin: 0 auto;
         padding-bottom: 1em;
         padding-top: 1em;
     }
-    .icono-enviar:hover{
+
+    .icono-enviar:hover {
         transform: scale(1.2);
         transition: width 0.5s, height 0.5s;
     }
+
     .entrada {
         width: 90%;
     }
-    textarea{
+
+    textarea {
         width: 90%;
     }
-} 
+}

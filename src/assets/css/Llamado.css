@@ -1,6 +1,4 @@
-@import '../css/Fonts.css';
-
-.container-llamado{
+.container-llamado {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +7,8 @@
     background-color: rgba(105, 163, 212, 0.65);
     padding-bottom: 1em;
 }
-.texto-llamado{
+
+.texto-llamado {
     text-align: center;
     max-width: 100%;
     margin: 2em;
@@ -17,7 +16,8 @@
     color: #FFFFFF;
     font-size: 1.1em;
 }
-.Link-Contactanos{
+
+.Link-Contactanos {
     text-decoration: none;
     color: #FFFFFF;
     width: 8em;
@@ -29,33 +29,37 @@
     margin-bottom: 1em;
 }
 
-.icono-contacto{
+.icono-contacto {
     max-width: 30%;
     padding-bottom: 1em;
 }
 
 /*TABLET*/
-@media only screen and (min-width: 768px) and (max-width: 1023px){
-    .Link-Contactanos{
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .Link-Contactanos {
         margin-bottom: 3em;
     }
-    .icono-contacto{
+
+    .icono-contacto {
         max-width: 50%;
     }
 }
 
 /* ESCRITORIO */
-@media only screen and (min-width: 1024PX){
-    .texto-llamado{
+@media only screen and (min-width: 1024PX) {
+    .texto-llamado {
         font-size: 1.5em;
     }
-    .Link-Contactanos{
+
+    .Link-Contactanos {
         margin-bottom: 4em;
     }
-    .icono-contacto{
+
+    .icono-contacto {
         max-width: 60%;
     }
-    .icono-contacto:hover{
+
+    .icono-contacto:hover {
         transform: scale(1.2);
         transition: width 0.5s, height 0.5s;
     }

@@ -1,8 +1,4 @@
-@import '../css/Fonts.css';
-
-
-
-.titulo{
+.titulo {
     text-align: center;
     font-family: 'Mont-Heavy';
     font-size: 2em;
@@ -11,14 +7,15 @@
 }
 
 /*ESCRITORIO*/
-@media only screen and (min-width: 1024PX){
-    .bio{
+@media only screen and (min-width: 1024PX) {
+    .bio {
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: row;
     }
-    .titulo{
+
+    .titulo {
         text-align: center;
         font-family: 'Mont-Heavy';
         font-size: 3em;

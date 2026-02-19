@@ -14,6 +14,7 @@ export default function Video({ videoId }) {
             src={thumbnail}
             alt="Video preview"
             className="video-thumbnail"
+            fetchpriority="high"
           />
           <div className="video-play-button">▶</div>
         </div>
